@@ -7,7 +7,8 @@ import { Product } from "@/types"
 import Currency from "@/components/ui/currency"
 import { ShoppingCart } from "lucide-react"
 import { Separator } from "./ui/separator"
-import { Button } from "./ui/Button"
+import Button from "./ui/Button"
+
 
 
 
