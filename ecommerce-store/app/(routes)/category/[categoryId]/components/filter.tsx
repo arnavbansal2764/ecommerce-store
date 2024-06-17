@@ -4,7 +4,8 @@
 'use client'
 
 
-import { Button } from "@/components/ui/Button";
+
+import Button from "@/components/ui/Button";
 import { Separator } from "@/components/ui/separator";
 import { cn } from "@/libs/utils";
 import { Color, Size } from "@/types"

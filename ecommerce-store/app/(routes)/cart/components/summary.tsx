@@ -9,7 +9,8 @@ import { useSearchParams } from "next/navigation";
 import axios from 'axios'
 import toast from "react-hot-toast";
 import { useEffect } from "react";
-import { Button } from "@/components/ui/Button";
+import Button from "@/components/ui/Button";
+
 
 
 const Summary = () => {
@@ -60,7 +61,7 @@ const Summary = () => {
           <div className='text-base font-medium text-gray-900'>
             Order total
           </div>
-          <Currency price={totalPrice}/>
+          <Currency value={totalPrice}/>
         </div>
       </div>
 

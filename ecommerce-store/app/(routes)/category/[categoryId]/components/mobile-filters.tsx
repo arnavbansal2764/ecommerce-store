@@ -9,7 +9,8 @@ import { Dialog } from "@headlessui/react";
 import { Plus, X } from "lucide-react";
 import { useState } from "react";
 import Filter from "./filter";
-import { Button } from "@/components/ui/Button";
+import Button from "@/components/ui/Button";
+
 
 
 
